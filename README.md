@@ -1,6 +1,5 @@
 ![Logo](admin/emoncms.png)
 # ioBroker.emoncms
-=================
 
 Dieser adapter dient zur Weiterleitung von ioBroker daten an emoncms.
 To be finalized with correct POST request and tested
