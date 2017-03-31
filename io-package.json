@@ -1,0 +1,45 @@
+{
+    "common": {
+        "name":                     "emoncms",
+        "version":                  "0.0.1",
+	    "news": {
+			"0.0.1": {
+			  "en": "initial adapter",
+			  "de": "Initiale Version",
+			  "ru": "Первоначальный адаптер"
+			}
+		},
+        "title":                    "emoncms adapter",
+        "desc":                     {
+				 "en": "ioBroker emoncms Adapter",
+				 "de": "ioBroker Emoncms Adapter",
+				 "ru": "ioBroker Emoncms драйвер как образец"
+		},
+        "platform":                 "Javascript/Node.js",
+        "mode":                     "daemon",
+        "icon":                     "emoncms.png",
+        "enabled":                  true,
+		"extIcon":                  "https://raw.githubusercontent.com/foxthefox/ioBroker.emoncms/master/admin/emoncms.png",
+		"keywords":                 ["emoncms", "openenergy"],
+        "readme":                   "https://github.com/foxthefox/ioBroker.emoncms/blob/master/README.md",
+		"loglevel":                 "info",
+        "type":                     "common adapters"
+    },
+    "native": {
+        "emonweb": "www.emoncms.org",
+        "emonwriteapikey": "1234567FFaa",
+        "estates": [
+                {
+                    "emonname": "hkv_wz1",
+                    "iobrokerstate": "hkv.0.radiator_1.countNorm"
+                },
+                {
+                    "emonname": "hkv_wz2",
+                    "iobrokerstate": "hkv.0.radiator_2.countNorm"
+                }
+            ]
+        },
+    "objects": [
+
+    ]
+}
